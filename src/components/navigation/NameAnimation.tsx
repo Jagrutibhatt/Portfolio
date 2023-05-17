@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const NameAnimation = () => {
   return (
     <>
-      <div className="flex items-center justify-center bg-no-repeat bg-cover mt-24">
+      <div className="flex items-center justify-center bg-no-repeat bg-cover mt-14">
         <motion.div
           className="relative"
           initial={{ y: -50, opacity: 0 }}

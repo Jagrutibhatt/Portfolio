@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import ContactLink from "./Contact";
+import ContactLink from "./ContactLink";
 
 const Navigation = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-cyan-800 p-4 text-center">
+    <nav className="flex items-center font-bold justify-between flex-wrap bg-cyan-800 p-2 text-center">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link to="/">
-          <span className=" font-bold text-xl tracking-tight">🙋‍♀️ JB</span>{" "}
+          <span>✨ Jagruti Bhatt</span>{" "}
         </Link>
       </div>
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">

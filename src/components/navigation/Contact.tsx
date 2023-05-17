@@ -1,15 +1,11 @@
-const ContactLink = () => {
-  const handleClick = () => {
-    window.location.href = "mailto:jagrutirbhatt@gmail.com";
-  };
+import ContactLink from "./ContactLink";
 
+const About = () => {
   return (
-    <a className="flex items-center space-x-2  " onClick={handleClick}>
-      {/* <AiOutlineMail /> */}
-      <span className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-400 mr-4">
-        👋 Contact Me
-      </span>
-    </a>
+    <div>
+      <ContactLink />
+    </div>
   );
 };
-export default ContactLink;
+
+export default About;
