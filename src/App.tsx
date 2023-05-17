@@ -14,7 +14,6 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/about" element={<About />} />
-
           <Route path="/" element={<Home />} />
         </Routes>
       </Router>
