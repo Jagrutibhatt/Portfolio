@@ -1,5 +1,3 @@
-import "//src/Images";
-
 const projects = [
   {
     id: 1,
