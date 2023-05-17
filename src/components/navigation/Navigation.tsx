@@ -3,7 +3,7 @@ import ContactLink from "./ContactLink";
 
 const Navigation = () => {
   return (
-    <nav className="flex items-center font-bold justify-between flex-wrap bg-cyan-800 p-2 text-center">
+    <nav className="flex items-center font-bold justify-between flex-wrap bg-cyan-700 p-2 text-center">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <Link to="/">
           <span>✨ Jagruti Bhatt</span>{" "}

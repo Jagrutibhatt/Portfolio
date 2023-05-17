@@ -36,10 +36,10 @@ const projects = [
 const Projects = () => {
   return (
     <div>
-      <h2 className="ml-14 text-4xl underline  text-orange-500 font-bold  mt-8">
+      <h2 className="ml-14 text-4xl underline  text-orange-500 font-bold mt-8">
         Projects
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8   mx-4 sm:mx-6 md:mx-8">
         {projects.map((project) => (
           <div key={project.id} className="bg-white shadow-md rounded-lg p-4">
             <img
