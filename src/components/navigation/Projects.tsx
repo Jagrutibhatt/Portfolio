@@ -1,3 +1,5 @@
+import "//src/Images";
+
 const projects = [
   {
     id: 1,
@@ -20,7 +22,7 @@ const projects = [
     name: "Pig Game",
     description: "A dice game - 100 points scorer is a winner ",
     image: "/src/Images/Pig-game-image.png",
-    technologies: ["JavaScript", "CSS", "bootstrap"],
+    technologies: ["JavaScript", "CSS", "Bootstrap"],
     url: "https://pig-game-jagruti.netlify.app/",
   },
   {
