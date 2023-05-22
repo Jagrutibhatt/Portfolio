@@ -1,9 +1,14 @@
+import Omnifood from "./Images/Omnifood-image.png";
+import GuessNumber from "./Images/Guess-my-number-image.png";
+import PigGame from "./Images/Pig-game-image.png";
+import TextUtils from "./Images/TextUtils-Image.png";
+
 const projects = [
   {
     id: 1,
     name: "Omnifood- Food delivery responsive website",
     description: "Omnifood is an AI-powered food subscription website.",
-    image: "/src/Images/Omnifood-image.png",
+    image: Omnifood,
     technologies: ["HTML", "CSS"],
     url: "https://omnifood-jagruti.netlify.app",
   },
@@ -11,7 +16,7 @@ const projects = [
     id: 2,
     name: "TextUtils",
     description: "It's a tool to modify your text.",
-    image: "/src/Images/TextUtils-Image.png",
+    image: TextUtils,
     technologies: ["React", "Bootstrap"],
     url: "https://63a30ef648f04b000894d9da--textutils-text-editor-jagruti.netlify.app/",
   },
@@ -19,7 +24,7 @@ const projects = [
     id: 3,
     name: "Pig Game",
     description: "A dice game - 100 points scorer is a winner ",
-    image: "/src/Images/Pig-game-image.png",
+    image: PigGame,
     technologies: ["JavaScript", "CSS", "Bootstrap"],
     url: "https://pig-game-jagruti.netlify.app/",
   },
@@ -27,7 +32,7 @@ const projects = [
     id: 4,
     name: "Guess my number! game",
     description: "As name suggests guess the correct number with hints",
-    image: "/src/Images/Guess-my-number-image.png",
+    image: GuessNumber,
     technologies: ["JavaScript", "HTML", "CSS"],
     url: "https://guess-my-number-game-jagruti.netlify.app/",
   },
